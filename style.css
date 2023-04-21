@@ -2,10 +2,11 @@
     background: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-.body {
-    background-image: url('fondo.jpg');
+body {
+    background-image: url('dinos.png');
 }
 .button {
-    background: 500px;
+    width: 100%;
 }
