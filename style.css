@@ -8,5 +8,21 @@ body {
     background-image: url('dinos.png');
 }
 .button {
-    width: 100%;
+    margin-top: none;
+    margin-left: 1px;
+    width: 100%;  
+    background-color: #1f53c5;  
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+.title {
+    background-color: #1f53c5;
+    margin-top: auto;
+    margin-left: 1px;
+    width: 1365px;
+    height: 80px;
 }
