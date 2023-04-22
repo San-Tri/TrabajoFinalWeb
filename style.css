@@ -6,19 +6,17 @@
 }
 body {
     background-image: url('dinos.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background-position: 100vh;
+    background-repeat: 100vh;
+    background-size: 100vh;
+    background-attachment: 100vh;
     
 }
 .boton {
-    border: 1px solid;
-    margin-left: 1px;
-    width: 100%;  
+    border: none;
+    width: 110px;
+    padding: 12px;  
     background-color: #24303c;  
-    padding: 12px;
-    color: white;
     margin: 16px 0;
     font-size: 16px;
     line-height: 20px;
@@ -26,17 +24,18 @@ body {
 .title {
     text-transform: uppercase;
     background-color: #1f53c5;
-    background-position: center;
+    background-position: 100vh;
+    background-position: 100vh;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
-}
-.title {
     margin-top: auto;
     margin-left: 1px;
     width: 1365px;
     height: 80px;
+}
+.subtitle {
+    font-size: 1rem;
 }
