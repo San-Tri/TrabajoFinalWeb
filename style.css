@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'roboto', sans-serif;
     margin: 0;
@@ -73,5 +76,36 @@ header a:hover {
 }
 #somos-proya .container {
     text-align: center;
-    padding: 200px 12px;
+    padding: 150px 12px;
+}
+#experiencia {
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+}
+#experiencia .container {
+    padding: 100px 0px;
+}
+#experiencia h2 {
+    margin-top: 0;
+    font-size: 3.2em;
+}
+#experiencia p {
+    display: none;
+}
+#experiencia .carta {
+    background-position: center center;
+    background-size: cover;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 15px;
+}
+.carta:first-child {
+    background-image: url(media/python.jpg);
+}
+.carta:nth-child(2) {
+    background-image: url(media/java.png);
+}
+.carta:nth-child(3) {
+    background-image: url(media/frontend.png);
 }
