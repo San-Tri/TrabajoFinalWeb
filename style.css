@@ -28,6 +28,7 @@ button {
     max-width: 1400px;
     margin: auto;
 }
+.color-acento{ color:blueviolet}
 header {
     background-color: rgb(245, 245, 245);
 }header .logo {
