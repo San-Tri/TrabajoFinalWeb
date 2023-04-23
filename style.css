@@ -5,83 +5,22 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('dinos.png');
-    background-position: 100vh;
-    background-repeat: 100vh;
-    background-size: 100vh;
-    background-attachment: 100vh;
-    
+    font-family: 'roboto', sans-serif;
+    margin: 0;
 }
-.title {
-    text-transform: uppercase;
-    background-color: #1f53c5;
-    background-position: 100vh;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-    margin-left: 1px;
-    width: 1365px;
-    height: 80px;
-}
-.subtitle {
-    font-size: 1rem;
-}
-.nav {
-    width: 300px;
-    height: 100vh;
-    display: flex;
-    flex-direction:row-reverse;
-    background-position: 50px;
-    background-size: 50px;
-}
-.lank {
-    color: rgb(32, 27, 27);
-    display: block;
-    padding: 15px 0;
-    text-decoration: none;
-}
-.nav_inside {
-    border-radius: 6px;
-    padding-left: 20px;
-}
-.nav_inside:hover {
-    background: #283441;
-}
-.list {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 0 16px 16px 0;
-    background-color: #24303c;
-}
-.item {
-    list-style: none;
-    width: 100%;
-    text-align: center;
-    overflow: hidden;
-}
-.item--click {
-    cursor: pointer;
-}
-.button {
-    display: flex;
-    align-items: center;
-    gap: 1em;
-    width: 70%;
-    margin: 0 auto;
-}
-.arrow {
-    margin-left: auto;
-}
-.show {
-    width: 80%;
-    margin-left: 2px solid #303440;
-    list-style: none;
-    transition: height .4s;
-    height: 0;  
+h1{ font-size: 3.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 1.25em;}
+button {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgb(0, 0, 0.3);
+    box-shadow: 2px 2px 10px rgb(0, 0, 0, 0.5);
+    color: white;
+    background-color: blueviolet;
 }
