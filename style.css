@@ -12,15 +12,6 @@ body {
     background-attachment: 100vh;
     
 }
-.boton {
-    border: none;
-    width: 110px;
-    padding: 12px;  
-    background-color: #24303c;  
-    margin: 16px 0;
-    font-size: 16px;
-    line-height: 20px;
-}
 .title {
     text-transform: uppercase;
     background-color: #1f53c5;
@@ -38,4 +29,55 @@ body {
 }
 .subtitle {
     font-size: 1rem;
+}
+.nav {
+    width: 300px;
+}
+.lank {
+    color: rgb(32, 27, 27);
+    display: block;
+    padding: 15px 0;
+    text-decoration: none;
+}
+.nav_inside {
+    border-radius: 6px;
+    padding-left: 20px;
+}
+.nav_inside:hover {
+    background: #283441;
+}
+.list {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 0 16px 16px 0;
+    background-color: #24303c;
+}
+.item {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.item--click {
+    cursor: pointer;
+}
+.button {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 70%;
+    margin: 0 auto;
+}
+.arrow {
+    margin-left: auto;
+}
+.show {
+    width: 80%;
+    margin-left: 2px solid #303440;
+    list-style: none;
+    transition: height .4s;
+    height: 0;  
 }
