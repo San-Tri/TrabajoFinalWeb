@@ -1,6 +1,5 @@
 * {
     background: border-box;
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -163,5 +162,28 @@ footer .container {
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
+    }
+    #somos-proya .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #somos-proya .texto {
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding-left: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #somos-proya h2 {
+        margin-top: 0px;
+    }
+    #somos-proya .img-container {
+        background-image: url('media/fondo2.jpg');
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
     }
 }
