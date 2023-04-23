@@ -117,3 +117,35 @@ header a:hover {
     margin: 16px 0px;
     font-weight: bold;
 }
+#maps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+#maps h2 {
+    font-size: 9vw;
+}
+#maps button {
+    font-size: 1em;
+}
+footer {
+    background-color: rgb(230,230,230);
+}
+footer p {
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+footer .container {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
