@@ -218,6 +218,15 @@ footer .container {
     #contactos ul{
         margin-left: 100px;
     }
+    #maps h2 {
+        font-size: 5em;
+    }
+    #final buttom {
+        font-size: 2em;
+    }
+    footer .container {
+        justify-content: flex-end;
+    }
 }
 @media (min-width: 1200px) {
     #contactos {
