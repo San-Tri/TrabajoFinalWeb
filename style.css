@@ -31,6 +31,11 @@ body {
 }
 .nav {
     width: 300px;
+    height: 100vh;
+    display: flex;
+    flex-direction:row-reverse;
+    background-position: 50px;
+    background-size: 50px;
 }
 .lank {
     color: rgb(32, 27, 27);
