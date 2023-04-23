@@ -197,15 +197,25 @@ footer .container {
         margin-bottom: 30px;
         background-position-x: 0;
     }
-    #experiencia h3 {
+    #experiencia h2 {
         margin-top: 0;
     }
     #experiencia .carta {
         padding: 50px;
-        background-size: 100%;
+        background-size: 100% 110px;
         background-repeat: no-repeat;
+        background-position-y: 0;
         background-color: rgb(50,50,50.5);
         box-shadow: 2px 2px 1opx rgba(0,0,0,0.5);
+    }
+    .carta:first-child {
+    background-image: url(media/python.jpg);
+    }
+    .carta:nth-child(2) {
+    background-image: url(media/java.png);
+    }
+    .carta:nth-child(3) {
+    background-image: url(media/frontend.png);
     }
     #contactos {
         background-image: url('media/fondo4.jpg');
