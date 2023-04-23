@@ -116,6 +116,7 @@ header a:hover {
 #contactos li {
     margin: 16px 0px;
     font-weight: bold;
+    padding: 5px 12px;
 }
 #maps {
     display: flex;
@@ -218,6 +219,7 @@ footer .container {
     }
     #contactos ul{
         margin-left: 100px;
+        padding: 5px 12px;
     }
     #maps h2 {
         font-size: 5em;
