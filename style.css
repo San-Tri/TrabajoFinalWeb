@@ -207,9 +207,10 @@ footer .container {
         box-shadow: 2px 2px 1opx rgba(0,0,0,0.5);
     }
     #contactos {
-        background-image: url('media/fondo3.jpg');
+        background-image: url('media/fondo4.jpg');
         background-repeat: no-repeat;
-        background-size: 500px 400px;
+        background-size: 550px 550px;
+        background-position-x: center center;
         background-position: calc(100vw - 500px) 120px;
     }
     #contactos .container {
