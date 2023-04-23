@@ -109,3 +109,11 @@ header a:hover {
 .carta:nth-child(3) {
     background-image: url(media/frontend.png);
 }
+#contactos .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+#contactos li {
+    margin: 16px 0px;
+    font-weight: bold;
+}
