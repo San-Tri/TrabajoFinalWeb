@@ -88,6 +88,7 @@ header a:hover {
 #experiencia h2 {
     margin-top: 0;
     font-size: 3.2em;
+    border: 2em rgb(30,30,30);
 }
 #experiencia p {
     display: none;
@@ -186,4 +187,22 @@ footer .container {
         height: 500px;
         width: 400px;
     }
-}
+    #experiencia .programas {
+        display: flex;
+        justify-content: center;
+    }
+    #experiencia p {
+        display: block;
+        margin-bottom: 30px;
+        background-position-x: 0;
+    }
+    #experiencia h3 {
+        margin-top: 0;
+    }
+    #experiencia .carta {
+        padding: 50px;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: rgb(50,50,50.5);
+        box-shadow: 2px 2px 1opx rgba(0,0,0,0.5);
+    }
